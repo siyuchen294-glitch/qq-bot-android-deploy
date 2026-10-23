@@ -1,0 +1,17 @@
+# 密钥与本地配置
+*.env
+.env*
+config.local.json
+secrets.*
+*.key
+*.pem
+
+# 运行产物
+*.log
+data/
+caches/
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
